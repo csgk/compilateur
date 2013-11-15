@@ -10,5 +10,5 @@
 %%
 
 fichier:
-e = EOF {{Ast.iostr = false; Ast.decl=[]}}
+e = EOF {{Ast.iostr = false; Ast.decl=[]; Ast.fichierLoc=$startpos, $endpos}}
 ; 
